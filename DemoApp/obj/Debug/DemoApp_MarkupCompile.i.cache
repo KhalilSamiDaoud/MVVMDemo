@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\khalil\source\repos\DemoApp\DemoApp\App.xaml
-1-250345876
+5-1710116637
 
-71221162110
+21-136594352
 14187497146
-Views\ShellView.xaml;
+Views\EditEmployeeView.xaml;Views\EmployeeView.xaml;Views\FamilyMembersView.xaml;Views\MainWindowView.xaml;Views\MenuView.xaml;
 
-False
+True
 

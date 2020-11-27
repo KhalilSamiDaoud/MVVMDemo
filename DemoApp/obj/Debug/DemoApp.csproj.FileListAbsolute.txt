@@ -8,9 +8,7 @@ C:\Users\khalil\source\repos\DemoApp\DemoApp\bin\Debug\DemoApp.exe
 C:\Users\khalil\source\repos\DemoApp\DemoApp\bin\Debug\DemoApp.pdb
 C:\Users\khalil\source\repos\DemoApp\DemoApp\bin\Debug\Stylet.dll
 C:\Users\khalil\source\repos\DemoApp\DemoApp\bin\Debug\Stylet.xml
-C:\Users\khalil\source\repos\DemoApp\DemoApp\obj\Debug\Views\ShellView.g.cs
 C:\Users\khalil\source\repos\DemoApp\DemoApp\obj\Debug\App.baml
-C:\Users\khalil\source\repos\DemoApp\DemoApp\obj\Debug\Views\ShellView.baml
 C:\Users\khalil\source\repos\DemoApp\DemoApp\obj\Debug\DemoApp.g.resources
 C:\Users\khalil\source\repos\DemoApp\DemoApp\obj\Debug\DemoApp.Properties.Resources.resources
 C:\Users\khalil\source\repos\DemoApp\DemoApp\obj\Debug\DemoApp.csproj.GenerateResource.cache
@@ -18,3 +16,13 @@ C:\Users\khalil\source\repos\DemoApp\DemoApp\obj\Debug\DemoApp.csproj.CoreCompil
 C:\Users\khalil\source\repos\DemoApp\DemoApp\obj\Debug\DemoApp.csproj.CopyComplete
 C:\Users\khalil\source\repos\DemoApp\DemoApp\obj\Debug\DemoApp.exe
 C:\Users\khalil\source\repos\DemoApp\DemoApp\obj\Debug\DemoApp.pdb
+C:\Users\khalil\source\repos\DemoApp\DemoApp\obj\Debug\Views\EditEmployeeView.g.cs
+C:\Users\khalil\source\repos\DemoApp\DemoApp\obj\Debug\Views\EmployeeView.g.cs
+C:\Users\khalil\source\repos\DemoApp\DemoApp\obj\Debug\Views\FamilyMembersView.g.cs
+C:\Users\khalil\source\repos\DemoApp\DemoApp\obj\Debug\Views\MenuView.g.cs
+C:\Users\khalil\source\repos\DemoApp\DemoApp\obj\Debug\Views\EditEmployeeView.baml
+C:\Users\khalil\source\repos\DemoApp\DemoApp\obj\Debug\Views\EmployeeView.baml
+C:\Users\khalil\source\repos\DemoApp\DemoApp\obj\Debug\Views\FamilyMembersView.baml
+C:\Users\khalil\source\repos\DemoApp\DemoApp\obj\Debug\Views\MenuView.baml
+C:\Users\khalil\source\repos\DemoApp\DemoApp\obj\Debug\Views\MainWindowView.g.cs
+C:\Users\khalil\source\repos\DemoApp\DemoApp\obj\Debug\Views\MainWindowView.baml

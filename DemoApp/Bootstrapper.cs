@@ -4,7 +4,7 @@ using DemoApp.ViewModels;
 
 namespace DemoApp
 {
-    public class Bootstrapper : Bootstrapper<ShellViewModel>
+    public class Bootstrapper : Bootstrapper<MainWindowViewModel>
     {
         protected override void ConfigureIoC(IStyletIoCBuilder builder)
         {
