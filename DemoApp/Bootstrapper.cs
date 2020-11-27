@@ -1,7 +1,6 @@
-﻿using System;
-using Stylet;
+﻿using Stylet;
 using StyletIoC;
-using DemoApp.Pages;
+using DemoApp.ViewModels;
 
 namespace DemoApp
 {
