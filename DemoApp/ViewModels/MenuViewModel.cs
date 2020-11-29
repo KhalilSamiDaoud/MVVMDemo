@@ -1,4 +1,5 @@
-﻿using Stylet;
+﻿using static DemoApp.Includes.Constants;
+using Stylet;
 
 namespace DemoApp.ViewModels
 {
@@ -10,9 +11,19 @@ namespace DemoApp.ViewModels
             mainWindow = _mainWindow;
         }
 
-        public void LoadEditEmployee()
+        public void LoadEditEmployees()
         {
+            mainWindow.SetNewScreen(Screens.EDIT_EMPLOYEES);
+        }
 
+        public void LoadViewEmployees()
+        {
+            mainWindow.SetNewScreen(Screens.VIEW_EMPLOYEES);
+        }
+
+        public void Exit()
+        {
+            mainWindow.RequestClose();
         }
     }
 }

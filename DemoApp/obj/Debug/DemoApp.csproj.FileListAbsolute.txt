@@ -26,3 +26,33 @@ C:\Users\khalil\source\repos\DemoApp\DemoApp\obj\Debug\Views\FamilyMembersView.b
 C:\Users\khalil\source\repos\DemoApp\DemoApp\obj\Debug\Views\MenuView.baml
 C:\Users\khalil\source\repos\DemoApp\DemoApp\obj\Debug\Views\MainWindowView.g.cs
 C:\Users\khalil\source\repos\DemoApp\DemoApp\obj\Debug\Views\MainWindowView.baml
+C:\Users\Khalils HP\Source\Repos\demoapp\DemoApp\bin\Debug\DemoApp.exe.config
+C:\Users\Khalils HP\Source\Repos\demoapp\DemoApp\bin\Debug\DemoApp.exe
+C:\Users\Khalils HP\Source\Repos\demoapp\DemoApp\bin\Debug\DemoApp.pdb
+C:\Users\Khalils HP\Source\Repos\demoapp\DemoApp\bin\Debug\Stylet.dll
+C:\Users\Khalils HP\Source\Repos\demoapp\DemoApp\bin\Debug\Stylet.xml
+C:\Users\Khalils HP\Source\Repos\demoapp\DemoApp\obj\Debug\Views\MainWindowView.baml
+C:\Users\Khalils HP\Source\Repos\demoapp\DemoApp\obj\Debug\Views\EditEmployeeView.g.cs
+C:\Users\Khalils HP\Source\Repos\demoapp\DemoApp\obj\Debug\Views\EmployeeView.g.cs
+C:\Users\Khalils HP\Source\Repos\demoapp\DemoApp\obj\Debug\Views\FamilyMembersView.g.cs
+C:\Users\Khalils HP\Source\Repos\demoapp\DemoApp\obj\Debug\Views\MainWindowView.g.cs
+C:\Users\Khalils HP\Source\Repos\demoapp\DemoApp\obj\Debug\Views\MenuView.g.cs
+C:\Users\Khalils HP\Source\Repos\demoapp\DemoApp\obj\Debug\App.g.cs
+C:\Users\Khalils HP\Source\Repos\demoapp\DemoApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Khalils HP\Source\Repos\demoapp\DemoApp\obj\Debug\DemoApp_MarkupCompile.cache
+C:\Users\Khalils HP\Source\Repos\demoapp\DemoApp\obj\Debug\DemoApp_MarkupCompile.lref
+C:\Users\Khalils HP\Source\Repos\demoapp\DemoApp\obj\Debug\App.baml
+C:\Users\Khalils HP\Source\Repos\demoapp\DemoApp\obj\Debug\Views\EditEmployeeView.baml
+C:\Users\Khalils HP\Source\Repos\demoapp\DemoApp\obj\Debug\Views\EmployeeView.baml
+C:\Users\Khalils HP\Source\Repos\demoapp\DemoApp\obj\Debug\Views\FamilyMembersView.baml
+C:\Users\Khalils HP\Source\Repos\demoapp\DemoApp\obj\Debug\Views\MenuView.baml
+C:\Users\Khalils HP\Source\Repos\demoapp\DemoApp\obj\Debug\DemoApp.g.resources
+C:\Users\Khalils HP\Source\Repos\demoapp\DemoApp\obj\Debug\DemoApp.Properties.Resources.resources
+C:\Users\Khalils HP\Source\Repos\demoapp\DemoApp\obj\Debug\DemoApp.csproj.GenerateResource.cache
+C:\Users\Khalils HP\Source\Repos\demoapp\DemoApp\obj\Debug\DemoApp.csproj.CoreCompileInputs.cache
+C:\Users\Khalils HP\Source\Repos\demoapp\DemoApp\obj\Debug\DemoApp.csproj.CopyComplete
+C:\Users\Khalils HP\Source\Repos\demoapp\DemoApp\obj\Debug\DemoApp.exe
+C:\Users\Khalils HP\Source\Repos\demoapp\DemoApp\obj\Debug\DemoApp.pdb
+C:\Users\Khalils HP\Source\Repos\demoapp\DemoApp\obj\Debug\DemoApp.csprojAssemblyReference.cache
+C:\Users\Khalils HP\Source\Repos\demoapp\DemoApp\obj\Debug\Views\ViewEmployeesView.g.cs
+C:\Users\Khalils HP\Source\Repos\demoapp\DemoApp\obj\Debug\Views\ViewEmployeesView.baml

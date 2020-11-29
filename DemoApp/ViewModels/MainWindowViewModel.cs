@@ -3,7 +3,7 @@ using Stylet;
 
 namespace DemoApp.ViewModels
 {
-    public class MainWindowViewModel : Conductor<Screen>
+    public class MainWindowViewModel : Conductor<IScreen>
     {
         public MainWindowViewModel()
         {
@@ -17,8 +17,11 @@ namespace DemoApp.ViewModels
                 case Screens.MENU:
                     ActivateItem(new MenuViewModel(this));
                     break;
-                case Screens.EDIT_EMPLOYEE:
+                case Screens.EDIT_EMPLOYEES:
                     ActivateItem(new EditEmployeeViewModel(this));
+                    break;
+                case Screens.VIEW_EMPLOYEES:
+                    ActivateItem(new ViewEmployeesViewModel(this));
                     break;
                 default:
                     break;

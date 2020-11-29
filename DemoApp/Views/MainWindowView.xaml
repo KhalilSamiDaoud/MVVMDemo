@@ -3,14 +3,19 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:DemoApp.ViewModels"
+        xmlns:s="https://github.com/canton7/Stylet"
         mc:Ignorable="d"
-        Title="Stylet Start Project" Height="450" Width="800"
-        xmlns:s="https://github.com/canton7/Stylet">
+        Title="Employee Database" 
+        Height="450" 
+        Width="800"
+        Icon="../Assets/Logo.ico" >
 
     <Grid>
-        <Viewbox StretchDirection="Both" Stretch="UniformToFill">
-            <ContentControl x:Name="ActiveItem" />
-        </Viewbox>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <ContentControl s:View.Model="{Binding ActiveItem}" Grid.Column="0"/>
     </Grid>
 </Window>

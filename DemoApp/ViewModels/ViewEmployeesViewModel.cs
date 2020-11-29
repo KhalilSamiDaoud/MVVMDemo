@@ -3,12 +3,13 @@ using Stylet;
 
 namespace DemoApp.ViewModels
 {
-    public class EditEmployeeViewModel : Screen
+    public class ViewEmployeesViewModel : Conductor<IScreen>
     {
         private MainWindowViewModel mainWindow;
-        public EditEmployeeViewModel(MainWindowViewModel _mainWindow)
+
+        public ViewEmployeesViewModel(MainWindowViewModel _mainWindow)
         {
-            this.mainWindow = _mainWindow;
+            mainWindow = _mainWindow;
         }
 
         public void LoadMainMenu()
