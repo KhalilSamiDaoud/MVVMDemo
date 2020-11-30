@@ -32,6 +32,7 @@ namespace DemoApp.Includes
                     }
                 }
             }
+
             return employees.ToArray();
         }
 
@@ -55,14 +56,15 @@ namespace DemoApp.Includes
                     }
                 }
             }
+
             return family.ToArray();
         }
 
-        public void AddEmployee(int id, string employeeInfo)
+        public void AddPerson(string employeeInfo)
         {
             using (StreamWriter fs = File.AppendText(path))
             {
-                fs.WriteLine("employeeInfo");
+                fs.WriteLine(employeeInfo);
             }
         }
 

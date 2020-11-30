@@ -2,22 +2,29 @@
 {
     public class FamilyMembersModel
     {
-        public int FamilyOf    { get; set; }
-        public int ID          { get; set; }
-        public string Name     { get; set; }
-        public string Standing { get; set; }
+        public string FamilyOf    { get; set; }
+        public string ID          { get; set; }
+        public string Name        { get; set; }
+        public string Standing    { get; set; }
 
-        public FamilyMembersModel(int _familyOf, int _id, string _name, string _standing)
+        public FamilyMembersModel(string dataEntry)
         {
-            this.FamilyOf = _familyOf;
-            this.ID = _id;
-            this.Name = _name;
-            this.Standing = _standing;
+            ProcessDataEntry(dataEntry);
+        }
+
+        private void ProcessDataEntry(string data)
+        {
+            string[] tokens = data.Split('|');
+
+            FamilyOf = tokens[1];
+            ID       = tokens[2];
+            Name     = tokens[3];
+            Standing = tokens[4];
         }
 
         public string ToEntry()
         {
-            return "*|" + FamilyOf.ToString() + "|" + ID.ToString() + "|" + Name + "|" + Standing;
+            return "*|" + FamilyOf+ "|" + ID + "|" + Name + "|" + Standing;
         }
     }
 }

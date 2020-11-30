@@ -11,9 +11,9 @@ namespace DemoApp.ViewModels
             mainWindow = _mainWindow;
         }
 
-        public void LoadEditEmployees()
+        public void LoadAddEmployees()
         {
-            mainWindow.SetNewScreen(Screens.EDIT_EMPLOYEES);
+            mainWindow.SetNewScreen(Screens.ADD_EMPLOYEES);
         }
 
         public void LoadViewEmployees()

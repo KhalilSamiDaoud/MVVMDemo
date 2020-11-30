@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Khalils HP\Source\Repos\demoapp\DemoApp\obj\Debug\
+C:\Users\khalil\source\repos\DemoApp\DemoApp\obj\Debug\
 DemoApp
 none
 false
 DEBUG;TRACE
-C:\Users\Khalils HP\Source\Repos\demoapp\DemoApp\App.xaml
-6230825402
+C:\Users\khalil\source\repos\DemoApp\DemoApp\App.xaml
+6579389703
 
-231190315004
-14992892129
-Views\EditEmployeeView.xaml;Views\EmployeeView.xaml;Views\FamilyMembersView.xaml;Views\MainWindowView.xaml;Views\MenuView.xaml;Views\ViewEmployeesView.xaml;
+18396970723
+14187497146
+Views\AddEmployeeView.xaml;Views\EmployeeView.xaml;Views\FamilyMembersView.xaml;Views\MainWindowView.xaml;Views\MenuView.xaml;Views\ViewEmployeesView.xaml;
 
-True
+False
 

@@ -63,30 +63,15 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Bootstrapper.cs" />
+    <Compile Include="Events\PersonAddedEvent.cs" />
     <Compile Include="Includes\Constants.cs" />
-    <Compile Include="ViewModels\EditEmployeeViewModel.cs" />
+    <Compile Include="ViewModels\AddEmployeeViewModel.cs" />
     <Compile Include="ViewModels\EmployeeViewModel.cs" />
     <Compile Include="ViewModels\FamilyMembersViewModel.cs" />
     <Compile Include="ViewModels\MenuViewModel.cs" />
     <Compile Include="ViewModels\ViewEmployeesViewModel.cs" />
-    <Compile Include="Views\EditEmployeeView.xaml.cs">
-      <DependentUpon>EditEmployeeView.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\EmployeeView.xaml.cs">
-      <DependentUpon>EmployeeView.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\FamilyMembersView.xaml.cs">
-      <DependentUpon>FamilyMembersView.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\MenuView.xaml.cs">
-      <DependentUpon>MenuView.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\ViewEmployeesView.xaml.cs">
-      <DependentUpon>ViewEmployeesView.xaml</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Events\EmployeeSelectedEvent.cs" />
     <Compile Include="Includes\EmployeeAccess.cs" />
     <Compile Include="Includes\EventAggregatorSG.cs" />
     <Compile Include="Models\EmployeeModel.cs" />
@@ -119,7 +104,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="Views\EditEmployeeView.xaml">
+    <Page Include="Views\AddEmployeeView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -147,15 +132,14 @@
   <ItemGroup>
     <Resource Include="DataBase.txt" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Assets\Person_Icon.png" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="Assets\Logo.ico" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Assets\People_Icon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Assets\Person_Icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

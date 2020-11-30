@@ -37,7 +37,7 @@
         </ComboBox>
 
         <TabControl Style="{StaticResource StyletConductorTabControl}" Margin="0,35,0,0"
-                        Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" Grid.ColumnSpan="4" /> 
+                        Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" Grid.ColumnSpan="4" SelectedIndex="0"/> 
 
         <Button Click="{s:Action LoadMainMenu}" Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="4" Width="300" Height="50" FontSize="24">
             BACK

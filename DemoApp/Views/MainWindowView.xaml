@@ -16,6 +16,13 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
-        <ContentControl s:View.Model="{Binding ActiveItem}" Grid.Column="0"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="24" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <ContentControl Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" s:View.Model="{Binding ActiveItem}" />
+
+        <TextBlock Grid.Column="0" Grid.Row="0" Text="{Binding EmployeesTracked}" FontSize="18" />
     </Grid>
 </Window>

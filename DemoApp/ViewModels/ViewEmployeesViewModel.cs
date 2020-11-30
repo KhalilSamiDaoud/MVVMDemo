@@ -2,6 +2,7 @@
 using DemoApp.Includes;
 using DemoApp.Models;
 using Stylet;
+using System.Collections.Generic;
 
 namespace DemoApp.ViewModels
 {
@@ -10,14 +11,16 @@ namespace DemoApp.ViewModels
         private MainWindowViewModel mainWindow;
         private EmployeeAccess myEmployeeDatabase;
         private EmployeeModel _selectedEmployee;
-
+        private List<FamilyMembersModel> myEmployeeFamily;
         public BindableCollection<EmployeeModel> myEmployees { get; set; }
 
         public ViewEmployeesViewModel(MainWindowViewModel _mainWindow)
         {
             mainWindow = _mainWindow;
+
             myEmployeeDatabase = new EmployeeAccess();
-            myEmployees = new BindableCollection<EmployeeModel>();
+            myEmployees        = new BindableCollection<EmployeeModel>();
+            myEmployeeFamily   = new List<FamilyMembersModel>();
 
             RetreiveEmployees();
         }
@@ -27,10 +30,33 @@ namespace DemoApp.ViewModels
             get { return _selectedEmployee;  }
             set
             {
-                this._selectedEmployee = value;
+                _selectedEmployee = value;
 
-                this.Items.Add(new EmployeeViewModel());
-                //NotifyOfPropertyChange(() => )
+                UpdateCurrentEmployee(value);
+            }
+        }
+
+        private void UpdateCurrentEmployee(EmployeeModel employee)
+        {
+            Items.Clear();
+            Items.Add(new EmployeeViewModel(employee));
+
+            myEmployeeFamily.Clear();
+            RetreiveEmployeeFamily(employee);
+
+            foreach (var x in myEmployeeFamily)
+            {
+                Items.Add(new FamilyMembersViewModel(x));
+            }
+        }
+
+        public void RetreiveEmployeeFamily(EmployeeModel employee)
+        {
+            string[] family = myEmployeeDatabase.GetEmployeeFamily(employee.ID);
+
+            foreach(var x in family)
+            {
+                myEmployeeFamily.Add(new FamilyMembersModel(x));
             }
         }
 
@@ -38,7 +64,7 @@ namespace DemoApp.ViewModels
         {
             string[] employees = myEmployeeDatabase.GetEmployees();
 
-            foreach(string x in employees)
+            foreach(var x in employees)
             {
                 myEmployees.Add(new EmployeeModel(x));
             }

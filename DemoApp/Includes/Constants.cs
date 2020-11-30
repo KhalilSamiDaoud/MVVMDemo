@@ -5,7 +5,7 @@
         public enum Screens
         {
             MENU,
-            EDIT_EMPLOYEES,
+            ADD_EMPLOYEES,
             VIEW_EMPLOYEES
         }
     }

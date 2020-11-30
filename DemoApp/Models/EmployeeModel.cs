@@ -17,11 +17,11 @@
         {
             string[] tokens = data.Split('|');
 
-            this.ID            = tokens[0];
-            this.Name          = tokens[1];
-            this.Position      = tokens[2];
-            this.Address       = tokens[3];
-            this.FamilyMembers = tokens[4];
+            ID            = tokens[0];
+            Name          = tokens[1];
+            Position      = tokens[2];
+            Address       = tokens[3];
+            FamilyMembers = tokens[4];
         }
 
         public string ToEntry()

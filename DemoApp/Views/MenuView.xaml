@@ -32,8 +32,8 @@
                        FontSize="50" />
         </StackPanel>
 
-        <Button Click="{s:Action LoadEditEmployees}"  Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="2" Width="300" Height="50" FontSize="24">
-            Edit Employees
+        <Button Click="{s:Action LoadAddEmployees}"  Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="2" Width="300" Height="50" FontSize="24">
+            Add Employees
         </Button>
 
         <Button Click="{s:Action LoadViewEmployees}" Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="3" Width="300" Height="50" FontSize="24">
