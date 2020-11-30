@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Stylet;
 
 namespace DemoApp.ViewModels
 {
-    class EmployeeViewModel
+    public class EmployeeViewModel : Screen
     {
+        public EmployeeViewModel()
+        {
+            this.DisplayName = "nani";
+        }
     }
 }

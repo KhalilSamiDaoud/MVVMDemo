@@ -66,7 +66,7 @@
     <Compile Include="Includes\Constants.cs" />
     <Compile Include="ViewModels\EditEmployeeViewModel.cs" />
     <Compile Include="ViewModels\EmployeeViewModel.cs" />
-    <Compile Include="ViewModels\FamilyMembersView.cs" />
+    <Compile Include="ViewModels\FamilyMembersViewModel.cs" />
     <Compile Include="ViewModels\MenuViewModel.cs" />
     <Compile Include="ViewModels\ViewEmployeesViewModel.cs" />
     <Compile Include="Views\EditEmployeeView.xaml.cs">

@@ -2,24 +2,31 @@
 {
     public class EmployeeModel
     {
-        public int ID { get; set; }
-        public int FamilyMembers { get; set; }
-        public string Name { get; set; }
-        public string Position { get; set; }
-        public string Address { get; set; }
+        public string ID            { get; set; }
+        public string FamilyMembers { get; set; }
+        public string Name          { get; set; }
+        public string Position      { get; set; }
+        public string Address       { get; set; }
 
-        public EmployeeModel(int _id, int _familyMembers, string _name, string _position, string _address)
+        public EmployeeModel(string dataEntry)
         {
-            this.ID = _id;
-            this.FamilyMembers = _familyMembers;
-            this.Name = _name;
-            this.Position = _position;
-            this.Address = _address;
+            ProcessDataEntry(dataEntry);
+        }
+
+        private void ProcessDataEntry(string data)
+        {
+            string[] tokens = data.Split('|');
+
+            this.ID            = tokens[0];
+            this.Name          = tokens[1];
+            this.Position      = tokens[2];
+            this.Address       = tokens[3];
+            this.FamilyMembers = tokens[4];
         }
 
         public string ToEntry()
         {
-            return ID.ToString() + "|" + Name + "|" + Position + "|" + Address + "|" + FamilyMembers.ToString();
+            return ID + "|" + Name + "|" + Position + "|" + Address + "|" + FamilyMembers;
         }
     }
 }
