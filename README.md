@@ -8,7 +8,7 @@ Notifications, and the Event Aggregator.
 
 *To run this demo make sure these requirementrs are met:*
 
-1. You are using Visual Stdio
+1. You are using Visual Studio
 
 2. You have installed the Stylet NuGet package
 
